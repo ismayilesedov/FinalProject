@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.header_right ul li {
+    list-style: none;
+    font-size: 0.8rem;
+    margin-right: 1.1rem;
+
+}
+
+.header_right a {
+    color: white;
+}
+
+.header_right ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_left p {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.header_left a {
+    text-decoration: none;
+    color: white;
+}
+
+.header_medium p {
+    font-size: 0.8rem;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 1rem;
+}
+
+.header_background {
+    width: 100%;
+    height: 50px;
+}
+
+.header_background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header_background {
+    position: relative;
+}
+
+.header_left {
+    position: absolute;
+    top: 1rem;
+    left: 3%;
+}
+
+.header_medium {
+    position: absolute;
+    top: 1rem;
+}
+
+.header_right {
+    position: absolute;
+    top: 1rem;
+    right: 3%;
+}
+
+.header_words {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_logo {
+    display: block;
+    text-align: center;
+}
+
+.logo {
+    width: 26%;
+    padding-top: 5%;
+}
+
+.navbar_section {
+    margin-top: 2rem;
+}
+
+.navbar_items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.navbar i {
+    font-size: 1rem;
+    margin-right: 1.2rem;
+    color: #767272;
+}
+
+.special_list_item a {
+    color: #B97A56;
+}
+
+.navbar_list ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar_list_item {
+    color: rgb(96, 95, 95);
+}
+
+.navbar_list ul li {
+    font-size: 0.87rem;
+    font-weight: 550;
+    margin-right: 4rem;
+}
+
+.navbar_icon ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+/* .responsive-navbar {
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    top: 0px;
+    left: 0;
+    background-color: white;
+    transition: all 1s;
+}
+
+.right-icons .icons .basket_count {
+    position: absolute;
+    right: -9px;
+    bottom: 13px;
+    color: #f3995e;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: math;
+}
+
+.wishlist_count {
+    position: absolute;
+    right: 19px;
+    bottom: 13px;
+    color: #f3995e;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: math;
+}
+
+.hamburger_icon {
+    cursor: pointer;
+}
+
+.hamburger_icon i {
+    position: relative;
+    right: 150px;
+    top: 30px;
+    font-size: 20px;
+    color: #b97a56;
+}
+
+.hamburger_menu_list {
+    width: 100%;
+    background-color: white;
+}
+
+.hamburger_menu_list .close {
+    transform: translateY(-300px);
+    position: absolute;
+    z-index: -500;
+}
+
+.nav_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    text-align: left;
+}
+
+.navbar_menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: .1em;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar_menu a span:hover {
+    color: #b97a56;
+    transition: 0.1s;
+}
+.navbar_menu a i {
+    float: right;
+    margin-right: 50px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.navbar_menu a i:hover{
+    color: #b97a56;
+    transition: 0.1s;
+} */
+
+
+.swiper .swiper_slide {
+    text-align: center;
+    font-size: 1.8rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: 100%;
+    background-size: contain;
+}
+.swiper{
+    position: relative;
+}
+.slider_title {
+    position: absolute;
+    top: 14rem;
+    z-index: 20;
+    font-size: 3.4rem;
+    font-family: "Crimson Text";
+    height: auto;
+    width: auto;
+    color: rgb(78, 78, 78);
+}
+
+.slider_text {
+    position: absolute;
+    z-index: 20;
+    width: 27% ;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 2.7rem ;
+    font-weight: 350;
+    color: #6767678c;
+    top: 52% ;
+}
+
+.swiper_slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper_slide img:nth-child(2) {
+    position: absolute;
+    z-index: 10;
+    width: 40%;
+    height: 40%;
+}
+
+.swiper_slide img:nth-child(3) {
+    position: absolute;
+    z-index: 20;
+    width: 9%;
+    height: 3%;
+}
+
