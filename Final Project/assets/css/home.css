@@ -336,6 +336,7 @@ a {
 
 .product_card img {
     width: 100%;
+
 }
 
 .product_img_hover {
@@ -578,7 +579,7 @@ a {
     object-fit: cover;
 }
 
-.teams_background{
+.teams_background {
     position: relative;
 }
 
@@ -591,11 +592,13 @@ a {
     font-family: 'Crimson Text', serif;
     color: white;
 }
-.team_item_logo{
+
+.team_item_logo {
     position: absolute;
     z-index: 20;
 
 }
+
 .team_item h5 {
     position: absolute;
     left: 43%;
@@ -611,7 +614,450 @@ a {
     width: 7rem;
 }
 
-.teams{
+.teams {
     position: relative;
     top: 6rem;
+}
+
+.team_worker {
+    position: absolute;
+    top: 310px;
+    left: 8%;
+    right: 8%;
+}
+
+.team_worker_item .worker_img_hover {
+    height: 96%;
+    border: 2px solid #e1a385;
+    position: absolute;
+    top: 7px;
+    width: 23.6%;
+    text-align: center;
+    opacity: 0;
+    transition: 1s;
+}
+
+.worker_detail {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+.worker_name h5 {
+    font-size: 30px;
+    font-family: serif;
+}
+
+.worker_position {
+    color: #474141f2;
+    font-size: 15px;
+}
+
+.worker_socials {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5% 30% 0 30%;
+    font-size: 20px;
+    width: 210px;
+}
+
+.team_worker_items:hover .worker_img_hover {
+    opacity: 1;
+    background-color: #ffffffeb;
+    transition: 0.5s;
+}
+
+.advertising {
+    margin-top: 30rem;
+}
+
+.advertising_img img {
+    position: relative;
+    width: 25rem;
+    height: 9rem;
+    object-fit: cover;
+}
+
+
+.advertising_item h5 {
+    position: absolute;
+    left: 14%;
+    font-size: 1.5rem;
+    margin-top: 3.2rem;
+    z-index: 20;
+}
+
+.advertising_item i {
+    position: absolute;
+    left: 11.5%;
+    font-size: 1.4rem;
+    margin-top: 3.4rem;
+    color: 767272;
+    z-index: 20;
+}
+
+.advertising_item p {
+    position: absolute;
+    z-index: 20;
+    margin-top: 5rem;
+    left: 14%;
+    color: #767272;
+    font-family: 'Alex Brush', cursive;
+    font-size: 1.5rem;
+}
+
+.advertising_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.2rem;
+}
+
+
+.advertising_img2 img {
+    position: relative;
+    width: 25rem;
+    height: 9rem;
+    object-fit: cover;
+}
+
+
+.advertising_item2 h5 {
+    position: absolute;
+    font-size: 1.5rem;
+    margin-top: 3.2rem;
+    margin-left: 6rem;
+    z-index: 20;
+}
+
+.advertising_item2 i {
+    position: absolute;
+    font-size: 1.4rem;
+    color: 767272;
+    z-index: 20;
+    margin-top: 3.3rem;
+    margin-left: 4rem;
+}
+
+.advertising_item2 p {
+    position: absolute;
+    z-index: 20;
+    color: #767272;
+    font-family: 'Alex Brush', cursive;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    margin-left: 6.5rem;
+}
+
+.advertising_img3 img {
+    position: relative;
+    width: 25rem;
+    height: 9rem;
+    object-fit: cover;
+}
+
+
+.advertising_item3 h5 {
+    position: absolute;
+    z-index: 30;
+    font-size: 1.5rem;
+    margin-top: 3.2rem;
+    margin-left: 6rem;
+}
+
+.advertising_item3 i {
+    position: absolute;
+    font-size: 1.4rem;
+    color: 767272;
+    z-index: 20;
+    margin-top: 3.3rem;
+    margin-left: 4rem;
+}
+
+.advertising_item3 p {
+    position: absolute;
+    font-family: 'Alex Brush', cursive;
+    z-index: 20;
+    color: #767272;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    margin-left: 6.2rem;
+}
+
+.portfolio {
+    margin-top: 8rem;
+}
+
+.portfolio_items {
+    margin-top: 8rem;
+}
+
+.portfolio_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio_item img {
+    width: 18rem;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.portfolio_img1 {
+    position: relative;
+    z-index: 20;
+}
+
+.portfolio_img1_hover_absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.7s;
+    opacity: 0;
+}
+
+.portfolio_img1:hover .portfolio_img1_hover {
+    opacity: 0;
+}
+
+.portfolio_img1:hover .portfolio_img1_hover_absolute {
+    opacity: 1;
+    transition: 1.5s;
+}
+
+
+
+
+
+.portfolio_img2 {
+    position: relative;
+    z-index: 20;
+}
+
+.portfolio_img2_hover_absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.7s;
+    opacity: 0;
+}
+
+.portfolio_img2:hover .portfolio_img2_hover {
+    opacity: 0;
+}
+
+.portfolio_img2:hover .portfolio_img2_hover_absolute {
+    opacity: 1;
+    transition: 1.5s;
+}
+
+
+.portfolio_img3 {
+    position: relative;
+    z-index: 20;
+}
+
+.portfolio_img3_hover_absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.7s;
+    opacity: 0;
+}
+
+.portfolio_img3:hover .portfolio_img3_hover {
+    opacity: 0;
+}
+
+.portfolio_img3:hover .portfolio_img3_hover_absolute {
+    opacity: 1;
+    transition: 1.5s;
+}
+
+
+
+
+.portfolio_img4 {
+    position: relative;
+    z-index: 20;
+}
+
+.portfolio_img4_hover_absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.7s;
+    opacity: 0;
+}
+
+.portfolio_img4:hover .portfolio_img4_hover {
+    opacity: 0;
+}
+
+.portfolio_img4:hover .portfolio_img4_hover_absolute {
+    opacity: 1;
+    transition: 1.5s;
+
+}
+
+.portfolio_item2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.portfolio_item2 img {
+    width: 18rem;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+.portfolio_img5 {
+    position: relative;
+    z-index: 20;
+}
+
+.portfolio_img5_hover_absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.7s;
+    opacity: 0;
+}
+
+.portfolio_img5:hover .portfolio_img5_hover {
+    opacity: 0;
+}
+
+.portfolio_img5:hover .portfolio_img5_hover_absolute {
+    opacity: 1;
+    transition: 1.5s;
+}
+
+.portfolio_img6 {
+    position: relative;
+    z-index: 20;
+}
+
+.portfolio_img6_hover_absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.7s;
+    opacity: 0;
+}
+
+.portfolio_img6:hover .portfolio_img6_hover {
+    opacity: 0;
+}
+
+.portfolio_img6:hover .portfolio_img6_hover_absolute {
+    opacity: 1;
+    transition: 1.5s;
+}
+
+
+
+.portfolio_img7 {
+    position: relative;
+    z-index: 20;
+}
+
+.portfolio_img7_hover_absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.7s;
+    opacity: 0;
+}
+
+.portfolio_img7:hover .portfolio_img7_hover {
+    opacity: 0;
+}
+
+.portfolio_img7:hover .portfolio_img7_hover_absolute {
+    opacity: 1;
+    transition: 1.5s;
+}
+
+
+.portfolio_img8 {
+    position: relative;
+    z-index: 20;
+}
+
+.portfolio_img8_hover_absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.7s;
+    opacity: 0;
+}
+
+.portfolio_img8:hover .portfolio_img8_hover {
+    opacity: 0;
+}
+
+.portfolio_img8:hover .portfolio_img8_hover_absolute {
+    opacity: 1;
+    transition: 1.5s;
+}
+
+.subscribe {
+    margin-top: 8rem;
+}
+
+.subscribe_background_img {
+    width: 86rem;
+}
+
+.subscribe_background_img img {
+    width: 100%;
+    height: 14rem;
+    object-fit: cover;
+}
+
+.subscribe_background_img {
+    position: relative;
+}
+
+.subscribe_items {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subscribe_title h3 {
+    font-family: 'Alex Brush', cursive;
+
+    font-size: 4rem;
+    color: white;
+}
+.subscribe_title p{
+    color: white;
+    font-size: 1rem;
+}
+.subscribe_input_item{
+    margin-left: 20rem;
+    margin-top: 6rem;
+}
+.subscribe_title{
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+.subscribe_input_item input{
+border: none;
+height: 3.1rem;
+}
+.subscribe_input_item button{
+    border:none;
+    padding: 0.5rem;
+}
+.subscribe_input_item button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
 }
