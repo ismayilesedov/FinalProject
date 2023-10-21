@@ -1,0 +1,159 @@
+.about_img {
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.about_story {
+    margin-top: 8rem;
+}
+
+.about_story_items {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.about_story_img img {
+    width: 38rem;
+}
+
+.about_story_description {
+    width: 40rem;
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
+
+.about_story_description p {
+    font-size: 1rem;
+    font-family: "Crimson Text";
+}
+
+.about_story_description h1 {
+    font-family: "Crimson Text";
+}
+
+.about_advertising {
+    margin-top: 8rem;
+    height: 15rem;
+}
+.about_advertising_items h1{
+    color: #177575;
+}
+.about_advertising_items p {
+    color: #f3995e;
+}
+.about_advertising_items i{
+    color: 177575;
+}
+.about_advertising_stores{
+    align-items: center;
+    text-align: center;
+}
+.about_advertising_countries{
+    align-items: center;
+    text-align: center;
+}
+.about_advertising_awards{
+    align-items: center;
+    text-align: center;
+}
+.about_advertising_employess{
+    align-items: center;
+    text-align: center;
+}
+.about_advertising_items {
+    display: flex;
+    border: 1px solid rgb(218, 216, 216);
+    padding: 1rem;
+    justify-content: space-between;
+
+}
+
+
+
+.about_strategy {
+    margin-top: 8rem;
+}
+
+.about_strategy_items {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.about_strategy_img img {
+    width: 38rem;
+    margin-left: 6rem;
+}
+
+.about_strategy_description {
+    width: 37rem;
+    margin-top: 4rem;
+}
+
+.about_strategy_description p {
+    font-size: 1rem;
+    font-family: "Crimson Text";
+}
+
+.about_strategy_description h1 {
+    font-family: "Crimson Text";
+}
+.about_success{
+    margin-top: 8rem;
+}
+.about_success_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.about_success_content h4 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 2.8rem;
+}
+
+.about_success_content h2 {
+    font-family: "Crimson Text";
+    font-size: 2.5rem;
+}
+
+/* 
+.about_success_slider_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about_success_slider_context p{
+    font-size: 1rem;
+    font-family: "Open Sans";
+    color: #534f4f99;
+}
+.author {
+
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+    align-items: center;
+}
+
+.author_name {
+    font-family: "Crimson Text";
+    color: #b97a56;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.author_job {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #6e6e6e;
+} */

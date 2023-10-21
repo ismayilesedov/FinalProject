@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.header_right ul li {
+    list-style: none;
+    font-size: 0.8rem;
+    margin-right: 1.1rem;
+
+}
+
+.header_right a {
+    color: white;
+}
+
+.header_right ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_left p {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.header_left a {
+    text-decoration: none;
+    color: white;
+}
+
+.header_medium p {
+    font-size: 0.8rem;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 1rem;
+}
+
+.header_background {
+    width: 100%;
+    height: 50px;
+}
+
+.header_background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header_background {
+    position: relative;
+}
+
+.header_left {
+    position: absolute;
+    top: 1rem;
+    left: 3%;
+}
+
+.header_medium {
+    position: absolute;
+    top: 1rem;
+}
+
+.header_right {
+    position: absolute;
+    top: 1rem;
+    right: 3%;
+}
+
+.header_words {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_logo {
+    display: block;
+    text-align: center;
+}
+
+.logo {
+    width: 26%;
+    padding-top: 5%;
+}
+
+.navbar_section {
+    margin-top: 2rem;
+}
+
+.navbar_items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.navbar i {
+    font-size: 1rem;
+    margin-right: 1.2rem;
+    color: #767272;
+}
+
+.special_list_item a {
+    color: #B97A56;
+}
+
+.navbar_list ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar_list_item {
+    color: rgb(96, 95, 95);
+}
+
+.navbar_list ul li {
+    font-size: 0.87rem;
+    font-weight: 550;
+    margin-right: 4rem;
+}
+
+.navbar_icon ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.right-icons .icons .basket_count {
+    position: absolute;
+    right: -9px;
+    bottom: 13px;
+    color: #f3995e;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: math;
+}
+
+.wishlist_count {
+    position: absolute;
+    right: 19px;
+    bottom: 13px;
+    color: #f3995e;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: math;
+}
+
+.hamburger_icon {
+    cursor: pointer;
+}
+
+.hamburger_icon i {
+    position: relative;
+    right: 150px;
+    top: 30px;
+    font-size: 20px;
+    color: #b97a56;
+}
+
+.hamburger_menu_list {
+    width: 100%;
+    background-color: white;
+}
+
+.hamburger_menu_list .close {
+    transform: translateY(-300px);
+    position: absolute;
+    z-index: -500;
+}
+
+.nav_menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    text-align: left;
+}
+
+.navbar_menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: .1em;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar_menu a span:hover {
+    color: #b97a56;
+    transition: 0.1s;
+}
+
+.navbar_menu a i {
+    float: right;
+    margin-right: 50px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.navbar_menu a i:hover {
+    color: #b97a56;
+    transition: 0.1s;
+}
+
+footer {
+    margin-top: 10rem;
+    height: 20rem;
+    background-color: #2C2C2C;
+}
+
+.footer_list_payment {
+    margin-top: 4rem;
+    width: 20rem;
+}
+
+.footer_link {
+    margin-top: 4rem;
+}
+
+.footer_location {
+    margin-top: 4rem;
+}
+
+.footer_img {
+    margin-top: 4rem;
+}
+
+.footer_location_item {
+    display: flex;
+    padding-top: 0.5rem;
+    align-items: center;
+}
+.footer_location_item_sociallink{
+    padding: 0.5rem;
+}
+.footer_list_payment_img1{
+    padding-bottom: 1.3rem;
+}
+.footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.footer_link li {
+    font-size: 1.1rem;
+    color: grey;
+ 
+}
+
+.footer_link li:hover {
+    color: #b97a56;
+    transition: 0.5s;
+}
+
+.footer h5 {
+    color: white;
+}
+
+.footer_list_payment p {
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+}
+
+.footer_location li {
+    color: grey;
+    font-size: 1.1rem;
+    font-family: serif;
+}
+
+.footer_location li:hover {
+    color: #b97a56;
+    transition: 0.5s;
+}
+
+.footer_location i:hover {
+    color: #B97A56;
+    transition: 0.5s;
+}
+
+.footer_location i {
+    color: grey;
+    font-size: 1rem;
+}
+
+.footer_img_box1 img {
+    width: 6rem;
+    cursor: pointer;
+}
+
+.footer_img_box1 img:hover {
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.footer_img_box2 {
+    margin-top: 1rem;
+}
+
+.footer_img_box2 img {
+    width: 6rem;
+    cursor: pointer;
+}
