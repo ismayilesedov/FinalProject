@@ -1,0 +1,93 @@
+.contact_img {
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.contact_map {
+    margin-top: 8rem;
+}
+
+.contact_map_item {
+    width: 35rem;
+    height: 30rem;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+}
+
+.map_items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact_map_informations {
+    margin-left: 7rem;
+    margin-top: 5rem;
+}
+
+.contact_map_text p {
+    font-size: 1rem;
+    color: grey;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.contact_map_text i {
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.contact_map_text {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.contact_right_text {
+    margin-left: 4rem;
+}
+
+.contact_text_hover:hover {
+    color: #e1a385;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.contact_map_text i:hover{
+    color: #e1a385;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.contact_getintouch{
+    margin-top: 7rem;
+}
+.contact_getintouch_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.contact_content h2{
+    font-family: "Crimson Text";
+    font-size: 2.5rem;
+}
+.contact_content h4 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 2.8rem;
+}
+.contact_form_inputs{
+    display: flex;
+    justify-content: space-between;
+}
+.contact_form_inputs input{
+    border: 0.5px solid grey;
+    padding: 0.5rem;
+}
