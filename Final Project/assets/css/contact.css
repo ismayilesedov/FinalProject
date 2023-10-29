@@ -90,4 +90,30 @@
 .contact_form_inputs input{
     border: 0.5px solid grey;
     padding: 0.5rem;
+    width: 26rem;
+}
+.contact_form{
+    margin-top: 5rem;
+}
+.contact_text_area textarea{
+    margin-top: 3rem;
+    width: 81.2rem;
+    height: 14rem;
+}
+.contact_subscribe_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.contact_subscribe_button button{
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #1A8283;
+    color: white;
+}
+.contact_subscribe_button button:hover{
+    background-color: black;
+    transition: 0.5s;
 }
