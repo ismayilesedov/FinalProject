@@ -82,8 +82,11 @@
     width: 94%;
     opacity: 0;
     transition: 0.5s;
-}
 
+}
+.product-img-hover:hover{
+    opacity: 1;
+}
 .product-img-hover i {
     position: absolute;
     right: 17px;
@@ -140,14 +143,6 @@
     color: #6a6a6aed;
     font-size: 19px;
     margin-right: 5%;
-}
-
-.product-price :hover .product-img {
-    filter: blur(20px);
-}
-
-.product-price :hover .product-img-hover {
-    opacity: 1;
 }
 
 .product-price {
@@ -434,15 +429,31 @@ input[type=range]::-webkit-slider-runnable-track {
 
 }
 
-.top-product-detail {
-    margin-top: 10px;
-}
+
 
 .top-product-detail ul {
     list-style: none;
     padding-left: 0rem;
     line-height: 30px;
     font-size: 15px;
+}
+
+.page-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-number ul li {
+    list-style: none;
+}
+
+.page-number ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
 }
 
 .top-product-detail ul li a {
@@ -456,8 +467,21 @@ input[type=range]::-webkit-slider-runnable-track {
     color: #b97a56;
 }
 
+.top-product-item1 a {
+    display: flex;
+}
 
-.search-inShop{
+.top-product-item2 a {
+    display: flex;
+    margin-top: 20px;
+}
+
+.top-product-item3 a {
+    display: flex;
+    margin-top: 20px;
+}
+
+.search-inShop {
     border: 1px solid #80808066;
     padding: 15px;
     display: flex;
@@ -465,28 +489,31 @@ input[type=range]::-webkit-slider-runnable-track {
     background-color: white;
     margin: 37px 0 0 12px;
 }
-.search-inShop input{
+
+.search-inShop input {
     border: none;
     outline: none;
 }
 
-.search-inShop input i{
+.search-inShop input i {
     color: #808080ad;
     font-size: 21px;
     margin-left: 35px;
 }
-.shop-banner img{
+
+.shop-banner img {
     margin: 60px 0 0 13px;
     max-width: 96%;
 }
-.load-more{
+
+.load-more {
     display: flex;
     justify-content: center;
     margin-top: 34px;
 }
 
 
-.load-more button{
+.load-more button {
     background-color: rgb(205 112 60 / 81%);
     color: white;
     border: none;

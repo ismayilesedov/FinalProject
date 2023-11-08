@@ -1,10 +1,8 @@
 let minValue = document.getElementById("min-value");
-// console.log(minValue);
 let maxValue = document.getElementById("max-value");
 
 function validateRange(minPrice, maxPrice) {
   if (minPrice > maxPrice) {
-    // Swap to Values
     let tempValue = maxPrice;
     maxPrice = minPrice;
     minPrice = tempValue;
@@ -13,7 +11,6 @@ function validateRange(minPrice, maxPrice) {
   minValue.innerHTML = "$" + minPrice;
   maxValue.innerHTML = "$" + maxPrice;
 }
-
 const inputElements = document.querySelectorAll(".range-slider input");
 inputElements.forEach((element) => {
   element.addEventListener("change", (e) => {
