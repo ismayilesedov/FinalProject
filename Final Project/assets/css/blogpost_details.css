@@ -1,0 +1,101 @@
+.post-description {
+    border-bottom: 1px solid gray;
+    width: 52rem;
+}
+
+.related-post h2 {
+    font-family: 'Crimson Text', serif;
+}
+
+.related-post-images {
+    display: flex;
+    gap: 2rem;
+}
+.related-post-images img {
+    width: 15rem;
+    height: 10rem;
+    object-fit: cover;
+}
+.related-post-images img:hover{
+    transform: scale(1.055);
+    transition: 0.5s;
+}
+.post-description-item {
+    font-size: 1.2rem;
+    font-family: serif;
+}
+
+.post-time {
+    font-size: 1rem;
+    color: rgb(176, 174, 174);
+    font-family: serif;
+}
+
+.related-post-images span {
+    color: #b97a56;
+}
+.comments_items{
+    margin-top: 6rem;
+}
+.comment-items-text{
+    margin-left: 1rem;
+}
+.related-post-images span:hover {
+    color: black;
+    transition: 0.5s;
+}
+.comment-items-img img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.comment-items{
+    display: flex;
+}
+.comment-items p{
+    font-size: 1rem;
+    color: rgb(163, 158, 158);
+}
+.post-comments button{
+    float: right;
+    border: none;
+    background-color: white;
+    font-size: 1rem;
+    color: #b97a56;
+}
+.post-comments button:hover{
+    color: black;
+    transition: 0.5s;
+}
+.comments_input textarea{
+    width: 50rem;
+    height: 20rem;
+}
+.comments_input input{
+    width: 50rem;
+    border: 0.5px solid rgb(163, 159, 159);
+    margin-top: 2rem;
+    padding: 0.5rem;
+
+}
+input::placeholder{
+    font-size: 1rem;
+    font-family: "Crimson Text";
+}
+textarea::placeholder{
+    font-size: 1rem;
+    font-family: "Crimson Text";
+}
+.commnet_button_submit button{
+    margin-top: 1rem;
+    background-color: #b97a56;
+    border: none;
+    padding: 0.5rem;
+    color: white;
+    width: 8rem;
+}
+.commnet_button_submit button:hover{
+    background-color: black;
+    transition: 0.5s;
+}
