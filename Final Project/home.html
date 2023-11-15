@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="/assets/css/common.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js   ">
     <link rel="stylesheet" href="/assets/css/common.css">
+    <script src="/assets/js/common.js" defer></script>
     <script src="/assets/js/home.js" defer></script>
+    <link rel="stylesheet" href="/assets/css/responsive.css">
     <link rel="stylesheet" href="/assets/css/home.css">
     <title>Document</title>
 </head>
@@ -49,9 +51,6 @@
                                 <a href="/registry.html">Registry</a>
 
                             </li>
-                            <li>
-                                <a href="">Faq</a>
-                            </li>
                         </ul>
                     </div>
 
@@ -62,13 +61,73 @@
         </div>
     </header>
     <main>
-        <section>
+        <section class="title_logo">
             <div class="container">
                 <div class="main_logo">
                     <a href="/home.html"><img src="/assets/images/logo (2).png" class="logo" alt=""></a>
                 </div>
             </div>
         </section>
+
+        <div class="responsive-navbar d-lg-none d-block">
+            <div class="hamburger-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="logo2 col-lg-12 col-md-12 col-sm-12">
+                <img src="./assets/images/logo (2).png" alt="logo">
+            </div>
+
+            <div class="search d-none">
+                <input type="text" placeholder="Search here...">
+                <i class="fa-solid fa-xmark closeIcon" style=" color: #8a8a8abd;"></i>
+            </div>
+
+            <div class="right-icons">
+                <ul class="icons">
+
+                    <li><a href=""><i class="fa-regular fa-user"></i></a></li>
+                    <ul class="log-reg d-none">
+                        <li><a href="/login.html">Login</a></li>
+                        <li><a href="/registry.html">Register</a></li>
+                    </ul>
+                    <li><a href="#"><i class="fa-solid fa-magnifying-glass fa-flip-horizontal searchIcon"></i></a>
+                    </li>
+                    <li><a href="/wishlist.html"><i class="fa-regular fa-heart"></i></a></li>
+                    <span class="wishlist-count2">1</span>
+                    <li><a href="/basket.html"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                    <span class="basket-count2">1</span>
+                </ul>
+            </div>
+
+            <div class="hamburger-menu-list">
+                <ul class="nav-menu close">
+                    <li>
+                        <a href="Home.html"><span>Home</span></a>
+                    </li>
+                    <li>
+                        <a href="About.html"><span>About</span></a>
+                    </li>
+
+                    <li>
+                        <a href="Blog.html"><span>Blog</span></a>
+                    </li>
+
+                    <li>
+                        <a href="Shop.html"><span>Shop</span></a>
+                    </li>
+                    <li>
+                        <a href="Contact.html"><span>Contact</span></a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+
+
+        </div>
+
 
         <section class="navbar_section">
             <div class="navbar">
@@ -113,11 +172,13 @@
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </li>
                             <li>
-                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="basket-count">1</span>
+                                <a href="/basket.html"> <i class="fa-solid fa-cart-shopping"></i></a>
+
+                                <span class="wishlist-count">1</span>
                             </li>
                             <li>
                                 <a href="/wishlist.html"> <i class="fa-regular fa-heart"></i></a>
-
                             </li>
                         </ul>
                     </div>
@@ -799,7 +860,6 @@
                         <h5>Creative Crew</h5>
                         <h4>Meet Our Team</h4>
                         <img class="teams_background" src="/assets/images/H1-background-img-2.jpg" alt="">
-
                     </div>
                 </div>
                 <div class="team_worker">
@@ -1089,9 +1149,6 @@
                         </a>
                         <a href="">
                             <li>Meet The Team</li>
-                        </a>
-                        <a href="">
-                            <li>FAQ Page</li>
                         </a>
                         <a href="/contact.html">
                             <li>Contact us</li>

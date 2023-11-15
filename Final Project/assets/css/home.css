@@ -1,4 +1,3 @@
-
 .swiper .swiper_slide {
     text-align: center;
     font-size: 1.8rem;
@@ -14,6 +13,7 @@
 .swiper {
     position: relative;
 }
+
 
 .slider_title {
     position: absolute;
@@ -340,14 +340,9 @@
     margin-top: 9rem;
 }
 
-.teams_items {
-    width: 82rem;
-
-}
-
 .team_item img {
-    width: 100%;
     height: 25rem;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -427,6 +422,7 @@
 
 .worker_socials {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 5% 30% 0 30%;
     font-size: 20px;

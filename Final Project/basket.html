@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,13 +13,12 @@
     <link rel="stylesheet" href="/assets/slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js">
-    <link rel="stylesheet" href="/assets/css/responsive.css">
-    <script src="/assets/js/common.js"defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js   ">
+    <script src="/assets/js/common.js"defer></script>
     <link rel="stylesheet" href="/assets/css/common.css">
-    <script src="/assets/js/login.js" defer></script>
-    <link rel="stylesheet" href="/assets/css/login.css">
+    <link rel="stylesheet" href="/assets/css/basket.css">
     <title>Document</title>
 </head>
 
@@ -30,7 +28,7 @@
             <div class="header_background">
                 <img src="/assets/images/H1-background-img-1.jpg" alt="">
             </div>
-            <div class="container">
+            <div class=" container">
                 <div class="header_words">
                     <div class="header_left">
                         <p>free call <a href="">0085 453 2214</a> </p>
@@ -44,7 +42,7 @@
                                 <a href="/about.html">About Us</a>
                             </li>
                             <li>
-                                <a href="">Login</a>
+                                <a href="/login.html">Login</a>
                             </li>
                             <li>
                                 <a href="/registry.html">Registry</a>
@@ -67,6 +65,7 @@
                 </div>
             </div>
         </section>
+
         <section class="navbar_section">
             <div class="navbar">
                 <div class="container">
@@ -110,13 +109,10 @@
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </li>
                             <li>
-                                <span class="basket-count">1</span>
-                                <a href="/basket.html"> <i class="fa-solid fa-cart-shopping"></i></a>
-
-                                <span class="wishlist-count">1</span>
+                                <i class="fa-solid fa-cart-shopping"></i>
                             </li>
                             <li>
-                                <a href="/wishlist.html"> <i class="fa-regular fa-heart"></i></a>
+                                <i class="fa-regular fa-heart"></i>
                             </li>
                         </ul>
                     </div>
@@ -126,7 +122,6 @@
             </div>
             </div>
         </section>
-        
         <div class="responsive-navbar d-lg-none d-block">
             <div class="hamburger-icon">
                 <i class="fa-solid fa-bars"></i>
@@ -186,65 +181,67 @@
 
         </div>
 
-
-        <section class="login">
-            <div class="login_img" style="background-image: url('./assets/images/aboutpage.jpg')">
-                <h1>LOGIN</h1>
+        <section class="wishlist">
+            <div class="wishlist_img" style="background-image: url('./assets/images/aboutpage.jpg')">
+                <h1>BASKET</h1>
                 <img src="./assets/images/H1-separator.png" alt="">
             </div>
         </section>
 
-        <section class="login_form">
+        <section class="wishlist_items">
             <div class="container">
-                <div class="login_form_items">
-                    <div class="login_title">
-                        <h2>LOG IN</h2>
+                <div class="wishlist-products">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Image</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Setting</th>
+                            </tr>
+
+                        </thead>
+                        <tbody>
+                            <tr>
+
+                                <td>
+                                    <img class="td_img" src="./assets/images/shop-img-1-768x942.jpg " alt="">
+                                </td>
+                                <td>
+                                    <span>Cactus</span>
+                                </td>
+                                <td>
+                                    <span>£<span>50</span></span>
+                                </td>
+                                <td>
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+                    <div class="continue-btn d-flex justify-content-between ">
+                        <button class="btn btn-primary shop"><a href="Shop.html">Continue shopping</a></button>
+                        <button class="btn btn-primary grandTotal"><span>Grand total:</span> <span>0</span></button>
                     </div>
-                    <div class="label">
-                        <label for="">Username or Email address </label>
+                </div>
+
+                <div class="show-alert d-none">
+                    <div class="alert">
+                        <button class="btn btn-danger btn-red">YOU HAVE NO ITEMS IN YOUR SHOPPING CART.</button>
+
                     </div>
-                    <div class="input">
-                        <input type="text">
-                    </div>
-                    <div class="label">
-                        <label for="">Password</label>
-                    </div>
-                    <div class="input">
-                        <input class="password_input" type="password">
-                        <i class="fa-regular fa-eye eyes"></i>
+                    <div class="button-shop">
+                        <button class="btn btn-primary btn-orange">Continue shopping</button>
                     </div>
 
-                    <div class="login">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
-                            <label style="color: #00000078;" class="form-check-label" for="form2Example31"> Remember me
-                            </label>
-                        </div>
-
-                        <div class="login_button">
-                            <button>Log In</button>
-                        </div>
-
-                        <div class="forgot_password">
-                            <a href="/forgot.html">Forgot Password?</a>
-                        </div>
-
-                        <div class="login_account">
-                            <div class="dont_myaccount">
-                                <p>Don't have an account?</p>
-                            </div>
-                            <div class="create_account">
-                                <a href="/registry.html">Register</a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
     </main>
-
-   <footer>
-
+    <footer>
         <section class="footer">
             <div class="container">
                 <div class="footer_list_payment">
@@ -254,7 +251,7 @@
                     <img src="/assets/images/footer-img-2.png" alt="">
                 </div>
                 <div class="footer_link">
-                 
+
                     <ul>
                         <h5>QUICK LINKS </h5>
                         <a href="">
@@ -273,7 +270,7 @@
                     </ul>
                 </div>
                 <div class="footer_location">
-                    
+
                     <ul>
                         <h5>FIND A STORE</h5>
                         <div class="footer_location_item">
@@ -327,12 +324,7 @@
 
             </div>
         </section>
-
-
     </footer>
-
-
-
 
 
 

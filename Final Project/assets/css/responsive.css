@@ -1,0 +1,101 @@
+@media (min-width:0px) and (max-width:850px) {
+    header {
+        display: none;
+    }
+
+    .title_logo {
+        display: none;
+    }
+
+    .navbar_section {
+        display: none;
+    }
+
+    .logo2 {
+        height: 50px;
+    }
+
+    .logo2 img {
+        width: 30% !important;
+        margin-left: 220px;
+    }
+
+    .right-icons {
+        position: relative;
+    }
+
+    .right-icons .icons {
+        list-style: none;
+        position: absolute;
+        right: 38px;
+        display: flex;
+        justify-content: end;
+        gap: 7px;
+        bottom: 5px;
+    }
+
+    .right-icons i {
+        color: #b97a56;
+    }
+
+    .log-reg {
+        padding: 9px;
+        list-style: none;
+        position: absolute;
+        top: 30px;
+        border: 1px solid white;
+        padding-left: 8px;
+        padding-right: 30px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .log-reg a {
+        text-decoration: none;
+        color: #b97a56;
+    }
+
+    .search {
+        width: 100% !important;
+        border: 1px solid #0000003b !important;
+        height: 40px !important;
+        justify-content: space-evenly !important;
+        align-items: center !important;
+        position: absolute !important;
+        top: 15px !important;
+        background-color: white !important;
+    }
+
+    .search input {
+        outline: none !important;
+        border: none !important;
+        margin: 3px 0 0 25px !important;
+        display: flex;
+        width: 73%;
+    }
+
+    .search i {
+        color: #8a8a8abd;
+        position: absolute;
+        right: 45px;
+        top: 10px;
+        font-size: 20px
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .subscribe_input_item form {
+        margin-right: 100px;
+    }
+
+    .about_img {
+        margin-top: 78px !important;
+    }
+
+    .about_strategy_img img {
+        margin-right: 15rem;
+    }
+}
